@@ -172,6 +172,17 @@ a:focus {
     color: #0d6eff ;
 }
 
+/*
+    Elements: typography
+    ---
+    Default markup for form elements
+*/
+
+input,
+label{
+    display: block;
+}
+
 /*------------------------------------*\
 #OBJECTS
 \*------------------------------------*/
@@ -465,6 +476,14 @@ a:focus {
     ---
     Everything form related here
 */
+
+.c-form-field--option{
+    display: flex;
+    align-items: center;
+}
+
+.c-form-field{
+}
 
 /*
     Component: Input
