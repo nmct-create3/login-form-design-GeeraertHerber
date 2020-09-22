@@ -538,23 +538,39 @@ label{
 */
 
 .c-button {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 14px;
+    color: #FFFFFF;
+    font-family: inherit;
+    font-weight: 700;
+    background-color: #3385FF;
+    border-radius: 3px;
+    border: 1px solid #2E77E6;
+    width: 100%;
+
 
 }
 
 .c-button:hover {
-
+ background-color: #4F95FF;
 }
 
 .c-button:focus {
-
+    background-color: #3385FF;
+    box-shadow: 0 0 4px 3px #3385ff48;
 }
 
 .c-button:active {
-
+ background-color: #2E77E6;
 }
 
 .c-button--block {
 
+}
+
+.o-button-reset{
+    all: none;
 }
 
 /*------------------------------------*\
