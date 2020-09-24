@@ -198,8 +198,36 @@ label{
     padding: 24px 24px 0;
 }
 
-.o-row--login {
+.o-row--login {}
     /* stuff here to align the card */
+
+.c-card{
+    background-color: #FFFFFF;
+    border: 1px solid #00000008;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 #00000012;
+    
+}
+
+.c-card__body {
+    padding: 24px 48px;
+}
+
+.c-card__title {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.c-card__footer{
+    font-size: 14px;
+    line-height: 17px;
+    border-top: 1px solid #E2E3E7;
+    padding: 24px 48px 0 48px;
+    color: #757787;
+    display: flex;
+    justify-content: center;
 }
 
 /* size modifiers */
@@ -522,7 +550,15 @@ label{
 */
 
 .c-label {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    color: #606274;
+}
 
+.c-label--option{
+    margin-bottom: 0px;
+    margin-left: 8px;
 }
 
 /* If a input is focused within the form-field class change te color of the label */
