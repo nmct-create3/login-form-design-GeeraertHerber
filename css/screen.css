@@ -31,6 +31,13 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #F5F6FA;
+    margin: 0px;
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
 }
 
 *,
@@ -198,8 +205,11 @@ label{
     padding: 24px 24px 0;
 }
 
-.o-row--login {}
-    /* stuff here to align the card */
+.o-row--login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .c-card{
     background-color: #FFFFFF;
