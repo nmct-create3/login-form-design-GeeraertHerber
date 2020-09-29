@@ -469,6 +469,7 @@ label{
 
     /* Corrects inability to style clickable `input` types in iOS */
     -webkit-appearance: none;
+    
 }
 
 /*------------------------------------*\
@@ -616,7 +617,7 @@ label{
 }
 
 .o-button-reset{
-    all: none;
+    
 }
 
 /*------------------------------------*\
